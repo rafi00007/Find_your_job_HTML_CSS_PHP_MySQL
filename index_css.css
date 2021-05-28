@@ -1,0 +1,61 @@
+*
+{
+	     padding: 0;
+			 margin: 0;
+			 box-sizing: border-box;
+}
+body{
+			background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),url('del.jpg');
+			height: 100vh;
+			background-size: cover;
+			background-position:center;
+			font-family: sans-serif;
+}
+.title{
+			position: absolute ;
+			top: 20%;
+			left: 50%;
+			transform: translate(-50%,-40%);
+}
+.title h1{
+
+	color: #fff;
+	font-size: 70px;
+}
+
+.menu-bar
+{
+		background:solid;
+			text-align: inline;
+
+}
+.menu-bar ul
+{
+
+		display: inline-flex;
+		list-style: none;
+		color: 	#fff;
+
+}
+.menu-bar ul li
+{
+	width: 190px;
+  margin: 5px;
+  padding: 5px;
+}
+.menu-bar ul li a
+{
+
+			text-decoration: none;
+			color: #ffffff;
+}
+.active, .menu-bar ul li:hover
+{
+
+			background:  	#4d0000;
+			border-radius: 3px;
+}
+.marquee a {
+	color:  #ffffff;
+
+}

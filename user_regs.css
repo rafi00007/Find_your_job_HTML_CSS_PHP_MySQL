@@ -1,0 +1,150 @@
+body{
+      padding: 0;
+      margin: 0;
+			background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),url('del.jpg');
+			height: 120vh;
+			background-size: cover;
+			background-position:center;
+			font-family: sans-serif;
+}
+.log{
+text-align: right;
+margin-right: 20px;
+
+}
+.btn1
+{
+  border: 1px solid #3498db;
+  background: none;
+  padding: 10px 20px;
+  font-size: 20px;font-family: "montserrat";
+  cursor: pointer;
+  margin:10px;
+  color: #fff;
+  transition: 0.9s;
+  position: relative;
+  overflow:hidden;
+}
+.btn1:hover
+{
+    color: #2498db;
+}
+.btn1::before
+{
+  content: "";
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 0%;
+  background: #3498db;
+  z-index: -1;
+  transition: 0.8s;
+  top: 0;
+  border-radius: 0 0 50% 50%;
+}
+.btn1:hover::before
+{
+  height: 180%;
+}
+
+.title{
+  text-align: center;
+  padding: 50px 0 20px;
+}
+
+.title h1{
+  margin: 0;
+  padding: 0;
+  color: #a6af13;
+  text-transform: uppercase;
+  font-size: 36px;
+}
+.container
+{
+   width: 50%;
+   height: 480px;
+   background-color: #fff;
+   margin: 0 auto;
+   border: 2px solid #fff;
+   box-shadow: 0 15px 40px rgba(0, 0, 0, 0.5);
+}
+.container .right
+{
+   float: right;
+   width: 50%;
+   height: 480px;
+   background: url('del.jpg');
+   background-size: cover;
+   background-position: center;
+   box-sizing: border-box;
+}
+.container .left
+{
+  float: left;
+  width: 50%;
+  height: 480px;
+  box-sizing: border-box;
+  background-color: #fff;
+
+}
+.formbox
+{
+  width: 100%;
+  padding: 80px 50px;
+  box-sizing: border-box;
+  height: 480px;
+  background: #fff;
+}
+
+.formbox label
+{
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+  color: #a6af13;
+}
+.formbox input
+{
+  margin-bottom: 20px;
+  width:100%;
+}
+.formbox input[type="text"],
+.formbox input[type="number"],
+.formbox input[type="password"]
+{
+  border: none;
+  border-bottom: 2px solid #a6af13;
+  outline: none;
+  height: 10px;
+
+}
+.formbox input[type="text"]:focus,
+.formbox input[type="number"]:focus,
+.formbox input[type="password"]:focus
+{
+    border-bottom: 2px solid #262626;
+}
+
+.formbox button[type="submit"]
+{
+      border: none;
+      outline: none;
+      width: 240px;
+      height: 40px;
+      background: #262626;
+      color: #fff;
+      font-size: 18px;
+      border-radius: 20px;
+}
+.formbox button[type="submit"]:hover
+{
+  background: #a6af13;
+  cursor: pointer;
+  color: #000;
+}
+.formbox a
+{
+  color: #262626;
+  font-size: 14px;
+  font-weight: bold;
+}
